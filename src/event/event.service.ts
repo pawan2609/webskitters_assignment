@@ -1,7 +1,3 @@
-// import { Injectable } from '@nestjs/common';
-
-// @Injectable()
-// export class EventService {}
 
 import { Injectable, NotFoundException, BadRequestException, ForbiddenException } from '@nestjs/common';
 import { InjectModel } from '@nestjs/mongoose';

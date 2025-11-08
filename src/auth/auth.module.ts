@@ -1,15 +1,4 @@
-// import { Module } from '@nestjs/common';
-// import { AuthService } from './auth.service';
-// import { AuthController } from './auth.controller';
 
-// @Module({
-//   providers: [AuthService],
-//   controllers: [AuthController]
-// })
-// export class AuthModule {}
-
-
-// D:\assignment\event_management\src\auth\auth.module.ts
 import { Module } from '@nestjs/common';
 import { JwtModule } from '@nestjs/jwt';
 

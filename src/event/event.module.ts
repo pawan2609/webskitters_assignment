@@ -1,14 +1,4 @@
-// import { Module } from '@nestjs/common';
-// import { EventService } from './event.service';
-// import { EventController } from './event.controller';
 
-// @Module({
-//   providers: [EventService],
-//   controllers: [EventController]
-// })
-// export class EventModule {}
-
-// D:\assignment\event_management\src\event\event.module.ts
 import { Module } from '@nestjs/common';
 import { MongooseModule } from '@nestjs/mongoose';
 import { EventService } from './event.service';

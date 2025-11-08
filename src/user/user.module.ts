@@ -1,10 +1,4 @@
-// import { Module } from '@nestjs/common';
-// import { UserService } from './user.service';
 
-// @Module({
-//   providers: [UserService]
-// })
-// export class UserModule {}
 
 import { Module } from '@nestjs/common';
 import { MongooseModule } from '@nestjs/mongoose';
